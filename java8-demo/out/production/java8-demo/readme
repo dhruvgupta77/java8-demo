@@ -1,0 +1,16 @@
+The difference between map() and flatMap() in Java 8.
+
+You should use a map() if you just want to transform one Stream into another where each element gets converted
+to one single value. Use flatMap() if the function used by map operation returns multiple values and you want
+just one list containing all values.
+
+In short, here are the key difference between map() vs flatMap() in Java 8:
+The function you pass to map() operation returns a single value.
+The function you pass to flatMap() operation returns a Stream of value.
+flatMap() is a combination of map and flat operation.
+map() is used for transformation only, but flatMap() is used for both transformation and flattening.
+
+
+Read more: https://javarevisited.blogspot.com/2016/03/difference-between-map-and-flatmap-in-java8.html
+----------------------------------------------
+
